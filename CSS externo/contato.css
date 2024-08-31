@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    height: 100vh;
+    background-color: white;
+}
+.container{
+        /* layout flexbox, converte ow itens em colunas*/
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:  rgb(201, 206, 202);
+    flex-direction: row;/*row, row-reverse- column, column-reverse*/
+    justify-content:center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    row-gap: 30px;
+    column-gap: 50px;
+    flex-wrap: wrap;
+    align-items: center;/* é nessesário definir uma altura para o container*/
+    height: 100%;/* ocupa 100% de view height*/
+
+}
+.box{
+    width: 320px;
+    height: 150px;
+    font-size: 30px;
+    background-color: rgb(178, 190, 180);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 30px;
+}
+
+
+.container1{
+    display: block;
+    background-color: rgb(204, 198, 198);
+    width: 100%;
+   
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    margin-top: 10px;
+}
+  
+.img{ 
+    width: 50%;
+    height: auto;
+    align-items: center;
+    justify-self:center;
+    flex-direction:row;
+    padding-left: 50px;
+    padding-right: 70px;
+    margin-left: 30px;
+    margin-right: 30px; 
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.footer{
+    display: flex;
+    background-color:   rgba(226, 148, 96, 0.979);
+    flex-direction: row;/*row, row-reverse- column, column-reverse*/
+    justify-content:center;
+    row-gap: 10px;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;/* é nessesário definir uma altura para o container*/
+    height: 100%;/* ocupa 100% de view height*/ 
+}
+
+.box2{
+    height: 100px;
+    font-size: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+span {
+    color: red;
+}
+
+.centralizado {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+.labels {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.textos {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    width: 100%;
+    padding: 3px;
+    border-radius: 4px;
+}
+
+.button {
+    font-size: 22px;
+    padding: 7px;
+    border-radius: 6px;
+}
+
+.antes {
+    position: absolute;
+    width: 400px;
+    height: 360px !important;
+    margin: 0px;
+    padding: 0px;
+}
+
+.antes img {
+    position: relative;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    top: 25%;
+}
+
+.direita {
+    background-color: rgb(204, 198, 198);
+    display: flex;
+    justify-content: end;
+}

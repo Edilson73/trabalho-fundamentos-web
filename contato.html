@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contato</title>
+	<link rel="stylesheet" href="CSS externo/contato.css">
+</head>
+
+<body class="body">
+	<form action="mensagem_contato.html">
+		<header class="container">
+			<nav>
+				<main class="container"> <!-- estrutura flexbox -->
+					<div class="box"><a href="index.html">Quem sou?</a></div>
+					<div class="box"><a href="formacao_educacional.html">Formação Educacional</a></div>
+					<div class="box"><a href="portifolio.html">Portifólio</a></div>
+					<div class="box"><a href="contato.html">Contato</a></div>
+				</main>
+			</nav>
+		</header>
+		<section>
+			<main class="container1"><!-- classe para o Conteudo principal -->
+				<h1 class="h1">Contato</h1>
+				<div class="antes">
+					<img src="imagens/tsuru1.png" alt="tsuru" width="200" class="img">
+				</div>
+				<div class="centralizado">
+					<label for="nome" class="labels">Nome: <span>*</span></label>
+					<input id="nome" class="textos" type="text" placeholder="Digite o seu nome" size="30" required><br>
+					<br />
+					<label for="email" class="labels">E-mail: <span>*</span></label>
+					<input id="email" class="textos" type="email" placeholder="Digite o seu e-mail" size="30" required><br>
+					<br />
+					<label for="msg" class="labels">Mensagem:</label>
+					<textarea id="msg" class="textos" rows="7" placeholder="Digite sua mensagem até 250 caracteres" minlength="10"
+						maxlength="250" style="resize: none;"></textarea>
+					<br />
+					<div class="direita">
+						<input type="submit" class="button" value="Enviar">
+					</div>
+				</div>
+			</main><!-- Botão sem fins de efeito -->
+			<footer>
+				<nav>
+					<h3 class="direitos">&copy;Todos os direitos reservados</h3>
+				</nav>
+				<nav class="footer">
+					<div class="box2"><img src="icones/facebook-brands-solid.svg" alt="facebok" /><a href="https://pt-br.facebook.com/" target="blank">facebook</a></div>
+					<div class="box2"><img src="icones/instagram-brands-solid.svg"instagram" /><a href="https://www.instagram.com/" target="blank">Instagram</a></div>
+					<div class="box2"><img src="icones/twitter-brands-solid.svg"" alt="twitter" /><a href="https://x.com/?lang=en" target="blank">Twitter</a></div>
+				</nav>
+			</footer>
+		</section>
+	</form>
+</body>
+
+</html>
